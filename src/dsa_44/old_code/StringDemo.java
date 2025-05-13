@@ -1,4 +1,4 @@
-package strings;
+package dsa_44.old_code;
 
 public class StringDemo {
 
