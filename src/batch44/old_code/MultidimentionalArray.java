@@ -1,4 +1,4 @@
-package dsa_44.old_code;
+package batch44.old_code;
 
 public class MultidimentionalArray {
 

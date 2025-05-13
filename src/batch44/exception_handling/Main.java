@@ -1,4 +1,4 @@
-package dsa_44.exception_handling;
+package batch44.exception_handling;
 
 public class Main {
 
