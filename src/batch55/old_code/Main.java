@@ -210,9 +210,9 @@ public class Main {
 
 		System.out.println(Arrays.deepToString(matrix));
 
-		for (int row = 0; row < matrix.length; row++) {
-			for (int col = 0; col < matrix[row].length; col++) {
-				System.out.print(matrix[row][col] + " ");
+		for (int row = 0; row < matrix[0].length; row++) {
+			for (int col = 0; col < matrix.length; col++) {
+				System.out.print(matrix[col][row] + " ");
 			}
 			System.out.println();
 		}
