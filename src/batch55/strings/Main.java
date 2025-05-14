@@ -12,19 +12,19 @@ public class Main {
 		
 		
 		
-		String s1 = "abc";
-		String s2 = "abc";
-		
-		String s3 = new String("abc");
-		String s4 = new String("abc");
-		
-		System.out.println(s1 == s2); 	// output => true
-		System.out.println(s1 == s3); 	// output => false
-		System.out.println(s2 == s3);	// output => false
-		System.out.println(s3 == s4);	// output => false
-		System.out.println(s1.equals(s3)); 	// true
-		
-		
+//		String s1 = "abc";
+//		String s2 = "abc";
+//		
+//		String s3 = new String("abc");
+//		String s4 = new String("abc");
+//		
+//		System.out.println(s1 == s2); 	// output => true
+//		System.out.println(s1 == s3); 	// output => false
+//		System.out.println(s2 == s3);	// output => false
+//		System.out.println(s3 == s4);	// output => false
+//		System.out.println(s1.equals(s3)); 	// true
+//		
+//		
 		
 		
 		
@@ -32,7 +32,7 @@ public class Main {
 		
 		// Iterate over string
 		
-		String s = "abcd";
+//		String s = "abcd";
 		
 //		System.out.println(s.charAt(0));
 //		System.out.println(s.charAt(1));
@@ -65,6 +65,51 @@ public class Main {
 //		for(char c : s.toCharArray()) {
 //			System.out.print(c + " ");
 //		}
+		
+		
+		
+		String s = "abcde";
+		System.out.println(s);
+		
+		
+		String upperCase = s.toUpperCase();
+		
+		System.out.println(upperCase);
+		
+		String lowerCase = upperCase.toLowerCase();
+		System.out.println(lowerCase);
+		
+		
+		
+		boolean b = s.contains("h");		// false
+		boolean b1 = s.contains("b");		// true
+		
+		System.out.println(b);
+		System.out.println(b1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 }
