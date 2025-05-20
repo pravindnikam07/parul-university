@@ -4,9 +4,6 @@ public class SearcgInSortedArray {
 
 	public static void main(String[] args) {
 		
-		// WAP to find the first occurance of 1
-		int[] arr = new int[] { 0,0,0,0,0,0,0,1,1,1,1,1,1}; 
-		
 		
 		int[] nums = new int[] {1,2,4,5,9,12};
 		int target = 5;

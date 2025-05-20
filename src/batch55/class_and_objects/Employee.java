@@ -22,4 +22,12 @@ public class Employee {
 		System.out.println(this.salary);
 		System.out.println(this.department);
 	}
+	
+	
+	public double increamentalSalary(int increamentPercent) {
+		this.salary = (this.salary * (increamentPercent / 100)) + this.salary;
+		System.out.println((this.salary * (increamentPercent / 100)) + this.salary);
+		return this.salary;
+	}
+	
 }
