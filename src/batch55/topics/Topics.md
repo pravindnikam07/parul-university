@@ -63,6 +63,7 @@
 		- for
 		- while
 		- do while
+		- for Each or for of
 			- printing numbers from 1 to 100
 			- printing odd/even numbers form 1 to 100
 			- printing even number which are not divisible by 3
@@ -101,7 +102,7 @@
 		1. Using string literal
 			String variable_name = "";
 		2. Using new keyword
-			String variable_name = new String(");
+			String variable_name = new String("");
 	- String comparisn using == and equals methods
 	- String methods
 		- length() => to get the length of string
@@ -147,10 +148,11 @@
 		- push(data) => it will add the element at the top.
 		- pop() => remove the element from the stack and return that element
 		- peek() => return the top element.
-		- isEmpty() => if your stack empty then it will return true otherwise false.
+		- isEmpty() => if your stack is empty then it will return true otherwise false.
 		- size() => return you the size of your stack
 	- Stack underflow => when you are trying to pop the element when your stack is empty
 	- Stack overflow => when you are trying to push the element when your stack is already full.
+	- Application => forward and backward button in browser, paint, editing software, Recursion call stack
 
 
 ## Queue
@@ -159,17 +161,45 @@
 		- enqueue => adding the element in the queue at last
 		- dequeue => removing the element from the queue from front
 		- peek => getting the element from the queue from the front
+	- Method
+		- addLast() => to perform enqueue operation in queue which will add the element at the last of the queue
+		- removeFirst() => it is used to perform dequeue operation
+		- pollFirst() => it is used to perform dequeue operation
+		- peekFirst() => peek operation in queue.
+		- isEmpty() => if your queue is empty then it will return true otherwise false.
+		- size() => return you the size of your queue
+	- Applications => Music player or you tube play list. 
 
 
+## LinkedList
+	- LinkedList is nothing but series of connected nodes by pointer
+	- Node => data and reference pointer 
+	- Applications => to create a stack or queue.
 
 
+## Tree
+	- Tree is non linear data structure.
+	- Every node having sub nodes and if each node or sub node having 2 child node then it is called as binary tree.
+	- Leaf node is the node which don't have any sub/child nodes
+	- Root node is the head of the tree
+	
+
+## Sorting
+	- Making the element in particular oder may be in ascending or descending.
+	- Bubble sort
+	- Selection sort
+	- Insertion sort
+	- Merge sort
+	- Quick sort
+	- Heap sort
+	- Count/frequency sort
+	- Bucket sort
 
 
-
-
-
-
-
+## Searching
+	- searching a particular element in the specific data.
+	- Linear search
+	- Binary
 
 
 
