@@ -8,8 +8,6 @@ public class Main {
 		
 		arr[0] = 3;
 		arr[1] = "Rahul";
-		
-		String s = "a";
 
 		
 	}
